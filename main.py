@@ -37,3 +37,15 @@ def calc():
             label_status.config(text="Overweight")
     else:
         label_status.config(text="")
+
+        #  INPUT SECTION 
+
+# Mass label and input box
+tk.Label(root, text="Mass").grid(row=0, column=0)
+entry_mass = tk.Entry(root)
+entry_mass.grid(row=0, column=1)
+
+# Height label and input box
+tk.Label(root, text="Height").grid(row=1, column=0)
+entry_height = tk.Entry(root)
+entry_height.grid(row=1, column=1)
