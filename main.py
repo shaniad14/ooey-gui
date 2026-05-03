@@ -49,3 +49,9 @@ entry_mass.grid(row=0, column=1)
 tk.Label(root, text="Height").grid(row=1, column=0)
 entry_height = tk.Entry(root)
 entry_height.grid(row=1, column=1)
+
+#  BUTTON 
+
+# Button to calculate BMI
+tk.Button(root, text="Calculate", command=calc).grid(row=2, column=1)
+
