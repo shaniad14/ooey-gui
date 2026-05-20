@@ -15,7 +15,7 @@ def calc():
         m = float(entry_mass.get())     # get mass input
         h = float(entry_height.get())   # get height input
     except:
-        label_result.config(text="Enter numbers")  # error message
+     label_result.config(text="Enter numbers")  # error message
         return
 
     # Choose formula based on unit
@@ -25,7 +25,7 @@ def calc():
         bmi = 703 * m / (h**2)
 
          # Display BMI result
-    label_result.config(text="BMI: " + str(round(bmi, 2)))
+        label_result.config(text="BMI: " + str(round(bmi, 2)))
 
     # Show category if checkbox is selected
     if show.get():
